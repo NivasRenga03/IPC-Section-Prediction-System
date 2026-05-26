@@ -1,3 +1,4 @@
+
 <div align="center">
 
 ### ⚖️ Intelligent Indian Penal Code Query Resolution Engine
@@ -10,13 +11,14 @@
 </div>
 
 
-## Overview?
+## Overview
 
 **IPC Legal** bridges the gap between everyday language and complex legal statutes. Instead of manually sifting through hundreds of IPC sections, you describe what happened — in your own words — and the system identifies the precise legal provisions that apply, powered by Google Gemini's NLP capabilities.
 
 Whether you're a law student, a legal professional doing quick lookups, or a citizen trying to understand your rights, IPC Legal translates human stories into legal references instantly.
 
 ![image](https://github.com/user-attachments/assets/20a362b6-4794-4832-bb6d-1040aa996435)
+
 
 ## ✨ Key Features
 
@@ -48,25 +50,7 @@ sections_desc.csv
 
 ## 🔄 How It Works
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                                                             │
-│   USER INPUT          GEMINI API          IPC DATASET       │
-│                                                             │
-│  "A man broke    ──►  Summarizes    ──►  Matches against   │
-│   into a house        & extracts         all sections      │
-│   and stole..."       key actions        in the CSV        │
-│                                                             │
-│                            │                               │
-│                            ▼                               │
-│                   RANKED RESULTS                           │
-│                                                             │
-│              ✦ Section 441 — Criminal Trespass             │
-│              ✦ Section 378 — Theft                         │
-│              ✦ Section 425 — Mischief                      │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
-```
+<img width="1332" height="568" alt="Screenshot 2026-05-26 110843" src="https://github.com/user-attachments/assets/ccd7bb5a-3af0-43e2-8a5e-d0f2a001994f" />
 
 **Step-by-step:**
 
