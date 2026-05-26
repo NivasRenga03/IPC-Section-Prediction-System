@@ -10,13 +10,13 @@
 </div>
 
 
-## 🔍 What Is This?
+## Overview?
 
 **IPC Legal** bridges the gap between everyday language and complex legal statutes. Instead of manually sifting through hundreds of IPC sections, you describe what happened — in your own words — and the system identifies the precise legal provisions that apply, powered by Google Gemini's NLP capabilities.
 
 Whether you're a law student, a legal professional doing quick lookups, or a citizen trying to understand your rights, IPC Legal translates human stories into legal references instantly.
 
-
+![image](https://github.com/user-attachments/assets/20a362b6-4794-4832-bb6d-1040aa996435)
 
 ## ✨ Key Features
 
